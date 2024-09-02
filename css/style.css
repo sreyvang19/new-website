@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    background-color: rgb(73, 121, 211);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+nav{
+    color: white;
+    background-color: rgb(241, 95, 42);
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.aside-top{
+    display: flex;
+    margin: 20px;
+    gap: 30px;
+    height: 30vh;
+}
+.box{
+    background-color: cornflowerblue;
+    flex: 1;
+}
+.box-full{
+    background-color: cornflowerblue;
+    flex: 3;
+    margin: 25px;
+    height: 30vh;
+}
+caption{
+    margin: 10px;
+}
+table{
+    /* color: white; */
+    border-collapse: collapse;
+}
+td,th{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+td:nth-child(1),th:nth-child(1){
+    background-color: rgb(110, 155, 238);
+}
+td:nth-child(2),th:nth-child(2){
+    background-color: rgb(64, 124, 235);
+}
+td:nth-child(3),th:nth-child(3){
+    background-color: rgb(17, 94, 236);
+}
+td:nth-child(4),th:nth-child(4){
+    background-color: rgb(16, 69, 168);
+}
+
